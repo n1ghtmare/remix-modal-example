@@ -121,7 +121,7 @@ export default function Modal(
                                         </button>
                                     )}
                                 </div>
-                                <div className="">{props.children}</div>
+                                <div>{props.children}</div>
                             </div>
                         </motion.div>
                     </>,

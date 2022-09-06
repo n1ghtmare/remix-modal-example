@@ -1,4 +1,4 @@
-This is a small sample of handling modals with Remix and Framer Motion.
+This is a small sample of handling modals with Remix and Framer Motion. There is also a writtern tutorial with more info [here](https://n1ghtmare.github.io/2022-09-06/remix-route-modal-with-framer-motion/)
 
 # Welcome to Remix!
 

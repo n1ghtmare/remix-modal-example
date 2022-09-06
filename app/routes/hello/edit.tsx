@@ -1,6 +1,8 @@
+import { useState } from "react";
+
 import { useNavigate } from "@remix-run/react";
 import { AnimatePresence } from "framer-motion";
-import { useState } from "react";
+
 import Modal from "~/components/Modal";
 
 export default function Edit() {
