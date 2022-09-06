@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 import { motion } from "framer-motion";
-import { XIcon } from "@heroicons/react/solid";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
 import { registerHotkey, setHotkeysScope } from "~/helpers/hotkeys";
 
@@ -117,7 +117,7 @@ export default function Modal(
                                             onClick={handleOutsideClickOrDismissKeypress}
                                             className="text-zinc-500 outline-purple-500 hover:text-purple-500"
                                         >
-                                            <XIcon className="h-4 w-4" />
+                                            <XMarkIcon className="h-4 w-4" />
                                         </button>
                                     )}
                                 </div>
